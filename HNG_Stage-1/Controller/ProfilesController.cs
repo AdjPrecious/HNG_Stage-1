@@ -3,7 +3,8 @@ using HNG_Stage_1.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.RegularExpressions;
-using static HNG_Stage_1.External_API.IExternalApiService.ExternalApiService;
+using static HNG_Stage_1.External_API.ExternalApiService;
+
 
 namespace HNG_Stage_1.Controller
 {

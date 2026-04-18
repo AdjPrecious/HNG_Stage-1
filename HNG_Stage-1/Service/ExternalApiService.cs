@@ -8,6 +8,7 @@ namespace HNG_Stage_1.External_API
         Task<GenderizeResponse> GetGenderAsync(string name);
         Task<AgifyResponse> GetAgeAsync(string name);
         Task<NationalizeResponse> GetNationalityAsync(string name);
+    }
 
         public class ExternalApiService : IExternalApiService
         {
@@ -77,4 +78,4 @@ namespace HNG_Stage_1.External_API
                     ApiName = apiName;
                 }
             } }
-    } }
+    } 
